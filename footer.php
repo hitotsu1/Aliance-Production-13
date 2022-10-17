@@ -1,129 +1,17 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>О компаний - Aliance Production</title>
-  </head>
-  <body>
-    <div class="mobile-menu">
-      <ul class="mobile-menu-nav">
-        <li class="mobile-menu-nav-item"><a href="/about.html" class="mobile-menu-link">О компаний</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Контрактное производство</a>
-          <ul class="mobile-submenu">
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
-            </li>
-            <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Бытовая химия</a>
-            </li>
-            <li class="mobile-submenu-item"> 
-              <a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
-            </li>
-            <li class="mobile-submenu-item"> 
-              <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
-            </li>
-            <li class="mobile-submenu-item"> 
-              <a class="mobile-submenu-link" href="#">Косметическая продукция</a>
-            </li>
-            <li class="mobile-submenu-item"> 
-              <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
-            </li>
-            <!-- /.mobile-submenu-item -->
-          </ul>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Собственные торговые марки</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Новости</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="mobile-menu-nav-item"><a href="#" class="mobile-menu-link">Контакты</a>
-          <!-- /.header-nav-link --></li>
-      </ul>
-      <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
-      <div class="mobile-info">
-        <svg class="phone-icon" width="24" height="24">
-          <use href="img/sprite.svg#mark"></use>
-        </svg>
-        <address class="mobile-info-address">г. Москва, Холодильный пер. 4к1с8</address>
-      </div>
-      <div class="mobile-info">
-        <svg class="phone-icon" width="24" height="24">
-          <use href="img/sprite.svg#mail"></use>
-        </svg>
-        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">a.dragunov@tdaliance.ru</a>
-      </div>
-    </div>
-    <nav class="navbar navbar-light">
-      <a href="" class="mobile-menu-toggle">
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-        <div class="mobile-menu-line"></div>
-      </a>
-      <a href="./" class="header-logo"> 
-        <svg class="logo-svg logo-light">
-          <use href="img/sprite.svg#logo-light"></use>
-        </svg> 
-        <svg class="logo-svg logo-dark">
-          <use href="img/sprite.svg#logo"></use>
-        </svg> 
-      </a>
-      <ul class="header-nav">
-        <li class="header-nav-item"><a href="#" class="header-nav-link">О компаний</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Контрактное производство</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Собственные торговые марки</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Новости</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-        <li class="header-nav-item"><a href="#" class="header-nav-link">Контакты</a>
-          <!-- /.header-nav-link --></li>
-        <!-- /.header-nav-item -->
-      </ul>
-      <div class="header-phone">
-        <svg class="phone-icon" width="24" height="24">
-          <use href="img/sprite.svg#Vector"></use>
-        </svg> 
-        <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
-      </div>
-      <button class="navbar-button button" data-toggle="modal">
-        <svg class="button-icon" width="24" height="24">
-          <use href="img/sprite.svg#Vector"></use>
-        </svg> 
-        <span class="button-text">Получить консультацию</span>
-      </button>
-    </nav>
-
-    <section class="cta">
+<section class="cta">
       <div class="bg-grey section-cta">
         <img src="img/cta.png" alt="call to action" class="cta-image">
         <div class="cta-from-wrapper container">
-          <form action="#" class="cta-form">
+          <form action="handler.php" method="POST" class="cta-form">
             <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
             <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
             <div class="input-group-wrapper">
               <div class="input-group">
-                <input id="user-name" type="text" class="input" placeholder=" ">
+                <input id="user-name" type="text" class="input" name="username" placeholder=" " maxlength="15" required/>
                   <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
-                <input id="user-phone" type="tel" class="input" placeholder=" ">
+                <input id="user-phone" type="tel" class="input" name="userphone" placeholder=" " maxlength="15" required/>
                 <label class="input-group-label" for="user-phone">Номер телефона</label>
               </div>
             </div>
@@ -146,7 +34,7 @@
           <svg class="logo-svg footer-logo">
             <use href="img/sprite.svg#logo"></use>
           </svg> 
-            <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a> 
+            <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a> 
             <div class="footer-info">
               <svg class="phone-icon" width="24" height="24">
                 <use href="img/sprite.svg#mark"></use>
@@ -215,7 +103,7 @@
       <div class="container">
        <div class="footer-wrapper">
         <div class="footer-legal">
-          <p class="footer-copyright">&copy; 2022 «Aliance Production». Все права защищены.</p>
+          <p class="footer-copyright">&copy; <?php echo date('d.m.Y')?> «Aliance Production». Все права защищены.</p>
           <a href="#" class="footer-policy">Политики конфиденциальности</a>
           <!-- /.footer-policy -->
         </div>
@@ -240,14 +128,14 @@
           </svg>
         </a>
         <p class="modal-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p> 
-          <form action="" class="modal-form">
+          <form action="handler.php" method=""POST class="modal-form">
             <div class="input-group-wrapper input-group-vertical">
               <div class="input-group modal-input-group">
-                <input id="modal-user-name" type="text" class="input modal-input" placeholder=" ">
+                <input id="modal-user-name" type="text" class="input modal-input" placeholder=" " name="username">
                   <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
               </div>
               <div class="input-group modal-input-group">
-                <input id="modal-user-phone" type="tel" class="input modal-input" placeholder=" ">
+                <input id="modal-user-phone" type="tel" class="input modal-input" placeholder=" " name="userphone">
                 <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
               </div>
             </div>
@@ -264,7 +152,7 @@
       </div>
     </div>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/just-validate.production.min.js"></script>
   <script src="js/main.js"></script>
-
 </body>
 </html>
